@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Real-time Chat Platform",
+    "description": "WebSocket + Node.js + Redis pub/sub; JWT auth; responsive UI.",
+    "tags": [
+      "Node.js",
+      "WebSocket",
+      "Redis",
+      "React"
+    ],
+    "link": "https://github.com/your-github-username/realtime-chat",
+    "live": "",
+    "highlight": true
+  },
+  {
+    "name": "E-commerce API",
+    "description": ".NET 8 Web API with PostgreSQL, EF Core, CQRS, and integration tests.",
+    "tags": [
+      ".NET",
+      "PostgreSQL",
+      "CQRS",
+      "Testing"
+    ],
+    "link": "https://github.com/your-github-username/ecommerce-api",
+    "live": "",
+    "highlight": true
+  },
+  {
+    "name": "Portfolio CMS",
+    "description": "Next.js 14, Prisma, Postgres; Admin dashboard + MDX blog.",
+    "tags": [
+      "Next.js",
+      "Prisma",
+      "Tailwind",
+      "MDX"
+    ],
+    "link": "https://github.com/your-github-username/portfolio-cms",
+    "live": "",
+    "highlight": false
+  }
+]

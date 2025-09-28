@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Hasnat - Full-Stack Software Engineer</title>
+  <meta name="description" content="Portfolio of Muhammad Hasnat - Full-Stack Software Engineer. Projects, experience, and contact." />
+  <link rel="canonical" href="https://<your-username>.github.io/" />
+  <meta property="og:title" content="Muhammad Hasnat - Full-Stack Software Engineer" />
+  <meta property="og:description" content="I design, build, and ship end-to-end products." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og-image.png" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles/modern.css" />
+</head>
+<body>
+  <nav>
+    <div class="container bar">
+      <div class="logo"><span class="dot"></span><strong id="name">Muhammad Hasnat</strong></div>
+      <div class="links">
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a id="resume" class="cta" href="#">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero container">
+    <div>
+      <h1>Full-Stack Engineer <span style="opacity:.6">building fast, robust products</span>.</h1>
+      <p class="lead" id="tagline">I design, build, and ship end-to-end products.</p>
+      <div class="btns">
+        <a id="github" class="btn primary" href="#" target="_blank" rel="noopener">View GitHub</a>
+        <a id="email" class="btn" href="mailto:you@example.com">Email Me</a>
+        <a id="linkedin" class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="projects" class="section container">
+    <h2>Featured Projects</h2>
+    <div id="projects-grid" class="grid cards"></div>
+  </section>
+
+  <section id="experience" class="section container">
+    <h2>Experience</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Full-Stack Engineer — Your Company</h3>
+        <p class="small">2023 — Present</p>
+        <p>Built and scaled web apps across frontend (React/Next.js), backend (Node.js/.NET), and data (PostgreSQL). Led code reviews and CI/CD improvements.</p>
+      </article>
+      <article class="card">
+        <h3>Software Engineer — Previous Company</h3>
+        <p class="small">2021 — 2023</p>
+        <p>Shipped features end-to-end, improved performance and reliability, and mentored interns.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <p class="small">Want to work together? Email me or message on LinkedIn.</p>
+    <div class="btns">
+      <a id="email2" class="btn" href="mailto:you@example.com">you@example.com</a>
+      <a id="linkedin2" class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="small">© <span id="year"></span> <span id="name2">Muhammad Hasnat</span>. Built with semantic HTML, modern CSS, and GitHub Pages.
+      <br />
+      Docs: <a href="https://docs.github.com/en/pages/quickstart" target="_blank" rel="noopener">GitHub Pages Quickstart</a> · <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site" target="_blank" rel="noopener">Configure publishing source</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('name2').textContent = document.getElementById('name').textContent;
+  </script>
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
