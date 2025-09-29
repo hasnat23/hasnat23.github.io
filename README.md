@@ -12,8 +12,9 @@ A fast, accessible, and mobile-first portfolio you can host with **GitHub Pages*
 
 To customize, edit:
 - `site.config.json` (name, role, email, social links, resume url)
-- `projects.json` (your featured projects)
-- `index.html` sections (About, Experience)
+- `projects.json` (your featured projects — add `details`, `live`, `highlight`, `tags`)
+- `experiences.json` (roles shown on the Experience section)
+- `index.html` sections (minor layout changes)
 
 > Docs: GitHub Pages quickstart and configuration — see links in the footer of `index.html`.
 

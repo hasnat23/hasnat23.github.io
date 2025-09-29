@@ -1,41 +1,72 @@
 [
   {
-    "name": "Real-time Chat Platform",
-    "description": "WebSocket + Node.js + Redis pub/sub; JWT auth; responsive UI.",
-    "tags": [
-      "Node.js",
-      "WebSocket",
-      "Redis",
-      "React"
-    ],
-    "link": "https://github.com/your-github-username/realtime-chat",
-    "live": "",
+    "name": "e-Voting-with-Blockchain",
+    "description": "Python blockchain voting system",
+    "details": "Blockchain-based e-voting implementation built with Python (smart contracts and supporting tooling).",
+    "tags": ["Python", "Blockchain"],
+    "category": "Web Applications",
+    "github": "https://github.com/hasnat23/e-Voting-with-Blockchain",
+    "image": "assets/img/e-voting-with-blockchain.jpg",
     "highlight": true
   },
   {
-    "name": "E-commerce API",
-    "description": ".NET 8 Web API with PostgreSQL, EF Core, CQRS, and integration tests.",
-    "tags": [
-      ".NET",
-      "PostgreSQL",
-      "CQRS",
-      "Testing"
-    ],
-    "link": "https://github.com/your-github-username/ecommerce-api",
-    "live": "",
+    "name": "Vue-Dashboard-using-Charts.Js",
+    "description": "Dashboard built with Vue and Chart.js",
+    "details": "Interactive dashboard built using Vue.js and Chart.js to visualize data with responsive charts and widgets.",
+    "tags": ["Vue", "Chart.js", "JavaScript"],
+    "category": "Web Applications",
+    "github": "https://github.com/hasnat23/Vue-Dashboard-using-Charts.Js",
+    "image": "assets/img/vue-dashboard-charts.jpg",
     "highlight": true
   },
   {
-    "name": "Portfolio CMS",
-    "description": "Next.js 14, Prisma, Postgres; Admin dashboard + MDX blog.",
-    "tags": [
-      "Next.js",
-      "Prisma",
-      "Tailwind",
-      "MDX"
-    ],
-    "link": "https://github.com/your-github-username/portfolio-cms",
-    "live": "",
-    "highlight": false
+    "name": "BitVote-A-Block-Chain-Voting-Application",
+    "description": "Decentralized voting app using Ethereum smart contracts",
+    "details": "BitVote is a decentralized voting application implemented with Ethereum smart contracts and a JavaScript frontend.",
+    "tags": ["Solidity", "JavaScript", "Blockchain"],
+    "category": "Web Applications",
+    "github": "https://github.com/hasnat23/BitVote-A-Block-Chain-Voting-Application",
+    "image": "assets/img/bitvote.jpg",
+    "highlight": true
+  },
+  {
+    "name": "Dogs-API-Vue-App",
+    "description": "Simple Vue dashboard using Dogs API",
+    "details": "A lightweight Vue.js application that consumes the Dogs API to display images and breed information in a dashboard layout.",
+    "tags": ["Vue", "API", "JavaScript"],
+    "category": "Web Applications",
+    "github": "https://github.com/hasnat23/Dogs-API-Vue-App",
+    "image": "assets/img/dogs-api-vue.jpg",
+    "highlight": true
+  },
+  {
+    "name": "ShopShot-React-Native",
+    "description": "React Native app with Firebase backend",
+    "details": "Cross-platform React Native app using Firebase Firestore to list and manage products with offline capabilities.",
+    "tags": ["React Native", "Firebase"],
+    "category": "Web Applications",
+    "github": "https://github.com/hasnat23/ShopShot-React-Native",
+    "image": "assets/img/shopshot-react-native.jpg",
+    "highlight": true
+  },
+  {
+    "name": "Done-With-It",
+    "description": "Marketplace React Native app",
+    "details": "A simple React Native marketplace app for selling used items, featuring listing, image uploads, and basic chat.",
+    "tags": ["React Native", "JavaScript"],
+    "category": "Web Applications",
+    "github": "https://github.com/hasnat23/Done-With-It",
+    "image": "assets/img/done-with-it.jpg",
+    "highlight": true
+  },
+  {
+    "name": "Buy4Free-Ecommerce-Website",
+    "description": "PHP/MySQL e-commerce website",
+    "details": "Traditional server-rendered e-commerce site built with PHP, MySQL and Bootstrap for front-end layout.",
+    "tags": ["PHP", "MySQL", "Bootstrap"],
+    "category": "Web Applications",
+    "github": "https://github.com/hasnat23/Buy4Free-Ecommerce-Website",
+    "image": "assets/img/buy4free-ecommerce.jpg",
+    "highlight": true
   }
 ]

@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Software Development Engineer",
+    "company": "Altair",
+    "range": "Aug 2022 — Present",
+    "location": "Aachen, Germany",
+    "summary": "Lead frontend engineer building high-performance data visualization tools and analytics dashboards.",
+    "bullets": [
+      "Architected and shipped interactive data visualization components with Vue 3, improving render performance by 40%",
+      "Built reusable component library reducing new feature development time by 60%",
+      "Led migration to automated CI/CD, cutting deployment time from 2 hours to 15 minutes"
+    ]
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "vision53",
+    "range": "Dec 2021 — Jul 2022",
+    "location": "Bonn, Germany",
+    "summary": "Built cross-platform mobile app for retail management and inventory tracking.",
+    "bullets": [
+      "Developed React Native app from scratch, reaching 10,000+ downloads with 4.5+ rating",
+      "Reduced app load time by 65% through code splitting and lazy loading"
+    ]
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "eshaafi.com",
+    "range": "2020",
+    "location": "Remote",
+    "summary": "Built modern healthcare platform serving 50,000+ patients and 1,000+ practitioners.",
+    "bullets": [
+      "Increased platform adoption by 200% through UX improvements and mobile optimization",
+      "Integrated telehealth features supporting 500+ daily consultations"
+    ]
+  }
+]

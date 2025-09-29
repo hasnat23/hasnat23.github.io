@@ -1,11 +1,11 @@
 {
   "name": "Muhammad Hasnat",
-  "role": "Full-Stack Software Engineer",
-  "location": "",
-  "email": "you@example.com",
-  "github": "your-github-username",
-  "linkedin": "your-linkedin-username",
+  "role": "Full Stack Software Engineer",
+  "location": "Aachen, Germany",
+  "email": "chmuhammadhasnat23@gmail.com",
+  "github": "https://github.com/hasnat23",
+  "linkedin": "https://www.linkedin.com/in/hasnat23",
   "x": "",
-  "portfolio_tagline": "I design, build, and ship end-to-end products.",
+  "portfolio_tagline": "Building high-performance data visualization tools that drive insights",
   "resume_url": "#"
 }

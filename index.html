@@ -19,53 +19,154 @@
     <div class="container bar">
       <div class="logo"><span class="dot"></span><strong id="name">Muhammad Hasnat</strong></div>
       <div class="links">
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-        <a id="resume" class="cta" href="#">Resume</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a id="linkedin2" class="cta" href="#" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </nav>
 
   <header class="hero container">
-    <div>
-      <h1>Full-Stack Engineer <span style="opacity:.6">building fast, robust products</span>.</h1>
-      <p class="lead" id="tagline">I design, build, and ship end-to-end products.</p>
-      <div class="btns">
-        <a id="github" class="btn primary" href="#" target="_blank" rel="noopener">View GitHub</a>
-        <a id="email" class="btn" href="mailto:you@example.com">Email Me</a>
-        <a id="linkedin" class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="avatar">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
+        <div class="hero-text">
+          <h1><span id="role">Full-Stack Engineer</span> <span class="muted">building fast, robust products</span></h1>
+          <p class="lead" id="tagline">I design, build, and ship end-to-end products.</p>
+          <div class="skill-chips" id="skill-chips"></div>
+          <div class="btns">
+            <a id="github" class="btn primary" href="#" target="_blank" rel="noopener">View GitHub</a>
+            <a id="email" class="btn" href="mailto:you@example.com">Email</a>
+            <a id="linkedin" class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="card highlight">
+          <h3>Open to work</h3>
+          <p class="small">Available for Full‑time roles, remote or hybrid. Strong in building scalable web services, APIs, and delightful UIs.</p>
+          <p style="margin-top:10px"><a class="btn" id="contact-cta" href="#contact">Get in touch</a></p>
+        </div>
       </div>
     </div>
   </header>
 
-  <section id="projects" class="section container">
-    <h2>Featured Projects</h2>
-    <div id="projects-grid" class="grid cards"></div>
+  <section id="about" class="section container">
+    <h2>About</h2>
+    <div class="grid">
+      <div class="card">
+        <p>Innovative and passionate full-stack software engineer with 5 years of experience in designing, developing, and deploying scalable web applications. Skilled in both front-end and back-end technologies, with a strong understanding of SEO principles to optimize application performance and visibility.</p>
+        <p style="margin-top:12px">Proficient in modern frameworks and languages such as JavaScript (React, Node.js), Python, and SQL, I have successfully delivered multiple high-impact projects that improved user experience and system efficiency.</p>
+        <p style="margin-top:12px">Demonstrated strong problem-solving skills by implementing optimized architectures and algorithms, resulting in enhanced application performance and reduced load times. Adept at collaborating with cross-functional teams to deliver innovative solutions that align with business goals.</p>
+      </div>
+      <div class="card">
+        <h3>Currently</h3>
+        <p class="small">Open to Full-Stack Engineering roles. Remote or Germany-based.</p>
+        <p class="small" style="margin-top:12px">5+ years experience · MS in Web & Data Science</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <h2>Skills & Expertise</h2>
+    <div class="skills-grid">
+      <div class="card">
+        <h3>Frontend Development</h3>
+        <div class="skill-chips">
+          <span class="skill">HTML5/CSS3</span>
+          <span class="skill">JavaScript ES6+</span>
+          <span class="skill">React.js</span>
+          <span class="skill">Vue.js</span>
+          <span class="skill">Angular</span>
+          <span class="skill">Tailwind CSS</span>
+          <span class="skill">Material UI</span>
+          <span class="skill">Webpack/Vite</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Backend Development</h3>
+        <div class="skill-chips">
+          <span class="skill">Node.js</span>
+          <span class="skill">Express.js</span>
+          <span class="skill">Python</span>
+          <span class="skill">Django</span>
+          <span class="skill">Flask</span>
+          <span class="skill">RESTful APIs</span>
+          <span class="skill">GraphQL</span>
+          <span class="skill">JWT/OAuth</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Database & DevOps</h3>
+        <div class="skill-chips">
+          <span class="skill">PostgreSQL</span>
+          <span class="skill">MongoDB</span>
+          <span class="skill">Firebase</span>
+          <span class="skill">Docker</span>
+          <span class="skill">Kubernetes</span>
+          <span class="skill">AWS</span>
+          <span class="skill">CI/CD</span>
+          <span class="skill">Git</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Testing & Tools</h3>
+        <div class="skill-chips">
+          <span class="skill">Jest</span>
+          <span class="skill">Cypress</span>
+          <span class="skill">PyTest</span>
+          <span class="skill">Agile</span>
+          <span class="skill">Jira</span>
+          <span class="skill">Scrum</span>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="experience" class="section container">
-    <h2>Experience</h2>
-    <div class="grid">
-      <article class="card">
-        <h3>Full-Stack Engineer — Your Company</h3>
-        <p class="small">2023 — Present</p>
-        <p>Built and scaled web apps across frontend (React/Next.js), backend (Node.js/.NET), and data (PostgreSQL). Led code reviews and CI/CD improvements.</p>
-      </article>
-      <article class="card">
-        <h3>Software Engineer — Previous Company</h3>
-        <p class="small">2021 — 2023</p>
-        <p>Shipped features end-to-end, improved performance and reliability, and mentored interns.</p>
-      </article>
+    <div class="section-head"><h2>Experience</h2><p class="small">Selected roles where I shipped products and led teams.</p></div>
+    <div id="experience-grid" class="timeline"></div>
+  </section>
+
+  <section id="projects" class="section container">
+    <div class="section-head">
+      <h2>Featured Projects</h2>
+      <div class="filters" id="project-filters">
+        <button class="chip active" data-filter="all">All Projects</button>
+      </div>
+    </div>
+    <div id="projects-grid" class="grid cards"></div>
+    <!-- Project detail modal -->
+    <div id="project-modal" class="modal hidden" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close">×</button>
+        <div id="modal-body"></div>
+      </div>
     </div>
   </section>
 
   <section id="contact" class="section container">
     <h2>Contact</h2>
-    <p class="small">Want to work together? Email me or message on LinkedIn.</p>
-    <div class="btns">
-      <a id="email2" class="btn" href="mailto:you@example.com">you@example.com</a>
-      <a id="linkedin2" class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+    <p class="small">Looking for a Full‑Stack Engineer? Share the role and I'll respond quickly.</p>
+    <div class="contact-grid">
+      <div class="card">
+        <h3>Message</h3>
+        <p class="small">Email</p>
+        <p><a id="email2" class="btn" href="mailto:chmuhammadhasnat23@gmail.com">chmuhammadhasnat23@gmail.com</a></p>
+      </div>
+      <div class="card">
+        <h3>Social</h3>
+        <p class="small">Links</p>
+        <p><a id="linkedin2" class="btn" href="#" target="_blank" rel="noopener">LinkedIn</a> <a id="github2" class="btn" href="#" target="_blank" rel="noopener">GitHub</a></p>
+      </div>
     </div>
   </section>
 
